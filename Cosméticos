@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beleza Pura</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+      color: #111;
+    }
+    header {
+      background: #fff;
+      padding: 20px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff5e62;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 80px 30px;
+      text-align: left;
+      color: #fff;
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .hero button {
+      background: #fff;
+      color: #ff5e62;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .hero button:hover {
+      background: #ffe6e6;
+    }
+    .produtos {
+      display: flex;
+      gap: 30px;
+      padding: 50px 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #fff;
+    }
+    .produto {
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    .produto img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .produto h3 {
+      margin: 10px 0;
+    }
+    .produto p {
+      color: #ff5e62;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .produto button {
+      padding: 8px 20px;
+      background-color: #ff5e62;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🌸 BELEZA PURA</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Produtos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Os melhores produtos de beleza à sua porta!</h1>
+    <p>Receba cosméticos de qualidade direto em casa. Escolha, compre e arrase!</p>
+    <button>Compre agora</button>
+  </section>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://i.imgur.com/H2Z5x1S.png" alt="Creme">
+      <h3>Creme Facial</h3>
+      <p>R$ 59,99</p>
+      <button>Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/F47OUzp.png" alt="Base">
+      <h3>Base Líquida</h3>
+      <p>R$ 79,90</p>
+      <button>Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="https://i.imgur.com/dWz4TY3.png" alt="Batom">
+      <h3>Batom Matte</h3>
+      <p>R$ 39,90</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+</body>
+</html>
